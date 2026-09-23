@@ -13,7 +13,7 @@ A [Pi](https://pi.dev) package that turns the main agent into a pure orchestrato
 ```bash
 pi install npm:pi-subagent-orchestrator
 # or from git:
-pi install git:github.com/<your-username>/pi-subagent-orchestrator
+pi install git:github.com/<Wuuukoyi>/pi-subagent-orchestrator
 ```
 
 Requires a configured model (e.g. via `pi` `/login`).
