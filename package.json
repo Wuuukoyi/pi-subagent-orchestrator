@@ -1,0 +1,14 @@
+{
+  "name": "pi-subagent-orchestrator",
+  "version": "1.0.0",
+  "description": "Main agent that delegates all work to isolated subagents with process, context, prompt and tool isolation",
+  "keywords": ["pi-package"],
+  "license": "MIT",
+  "pi": {
+    "extensions": ["./extensions/subagent/index.ts"],
+    "prompts": ["./prompts/*.md"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
